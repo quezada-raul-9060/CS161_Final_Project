@@ -1,5 +1,5 @@
 #  This is as much as I could to do while understanding most of the code.\
-#  Watched few videos on pygame tutorials, mainly_var Tech With Tim.
+#  Watched few videos on pygame tutorials, mainly Tech With Tim.
 #  Didn't finish code, got stuck on how to get SPRITE to stand on blocks.
 #  I had told you I was going to make the snake game, but it got to the point\
 #  where the code was too much and I could not understand it all.
