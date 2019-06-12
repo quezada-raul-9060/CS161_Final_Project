@@ -37,7 +37,7 @@ class Player():
     Created a class for the Player.
 
     The class is for a random SPRITE used.
-    Will be able to move left and right, jump, and have a hitbox_var.
+    Will be able to move left and right, jump, and have a hitbox.
     """
 
     def __init__(self, x_var, y_var, width, height):
@@ -119,7 +119,7 @@ def redraw_game_window():
     pygame.display.update()
 
 
-#  Creating blocks for CHARacter to jump on
+#  Creating blocks for character to jump on
 BRICK_COLOR = (250, 50, 0)
 BRICKS = []
 for row in range(1):
@@ -137,7 +137,7 @@ for row in range(1):
         BRICKS.append(brick5)
         BRICKS.append(brick6)
 
-#  Loops for SPRITE actions and calling Play_varer class.
+#  Loops for SPRITE actions and calling Player class.
 SPRITE = Player(200, 410, 64, 64)
 RUN = True
 while RUN:
